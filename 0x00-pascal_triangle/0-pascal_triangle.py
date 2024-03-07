@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def pascal_triangle(n):
     if n <= 0:
         return []
@@ -17,11 +18,10 @@ def pascal_triangle(n):
 
     return triangle
 
-# Test the function
+# To Test this function
 if __name__ == "__main__":
     def print_triangle(triangle):
         for row in triangle:
             print("[{}]".format(",".join([str(x) for x in row])))
 
     print_triangle(pascal_triangle(5))
-
