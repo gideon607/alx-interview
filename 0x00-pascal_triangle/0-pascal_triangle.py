@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-
 def pascal_triangle(n):
     """
-
     Returns Pascal's triangle up to the nth row.
     
     Args:
@@ -10,7 +8,6 @@ def pascal_triangle(n):
         
     Returns:
         list: List of lists representing Pascal's triangle.
-    
     """
     if n <= 0:
         return []
@@ -25,7 +22,7 @@ def pascal_triangle(n):
 
     return triangle
 
-# TO Test this function
+# Test the function
 if __name__ == "__main__":
     def print_triangle(triangle):
         for row in triangle:
